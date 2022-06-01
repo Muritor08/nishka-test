@@ -1,0 +1,18 @@
+.sp-mt{
+    margin-top:5%;
+}
+@media screen and (max-width:1100px){
+    .sp-mt{
+        margin-top:25%;
+    }
+}
+@media screen and (max-width:850px){
+    .sp-mt{
+        margin-top:35%;
+    }
+}
+@media screen and (max-width:550px){
+    .sp-mt{
+        margin-top:45%;
+    }
+}

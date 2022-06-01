@@ -1,0 +1,11 @@
+.videoEl{
+    width:100%;
+    height:20rem !important
+}
+.womenSpecialImg{
+    text-align:center;
+    margin-bottom:5%;
+}
+.womenSpecialImg img{
+    height:15rem;
+}

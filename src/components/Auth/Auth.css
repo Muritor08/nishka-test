@@ -1,0 +1,27 @@
+.register-img{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+.register-img img{
+    height:20rem;
+}
+.validator{
+    display: flex; 
+    align-items: center;
+}
+.validation-item{
+    margin: 0px;
+    margin-left: 10px;
+}
+.error{
+    color: rgb(202, 86, 86);
+}
+.success{
+    color: rgb(112, 189, 112);
+}
+@media screen and (max-width:420px){
+    .register-img img{
+        height:10rem
+    }
+}

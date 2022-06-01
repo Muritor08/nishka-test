@@ -1,0 +1,169 @@
+
+
+/* @media screen and(max-width : 1025px ){
+
+    .maindiv{
+        height: 600px !important;
+        
+    }
+    .headcontent_kn{
+        font-size: 60px !important;
+    }
+    .link{
+       
+        width: 15% !important;
+    }
+    .link_kn{
+        top: 50% !important;
+    }
+    #text_kn{
+        top: 25% !important;
+    }
+    .heading_kn{
+        width : 50% !important;
+    }
+    #link_fd{
+        top:60% !important;
+    }
+    
+} */
+/* @media screen and (min-width : 1288px) {
+
+    .link_1{
+        width: 20% !important;
+    }
+
+} */
+
+@media screen and (min-width : 1022px) {
+
+  .image_main{
+      bottom: 8% !important;
+      left: 8% !important;
+  }
+  .text_1{
+      left:60% !important;
+      width: 34% !important;
+  }
+  .link_1{
+      left:66% !important;
+      width: 23% !important;
+  }
+  .text_2{
+      left:60% !important;
+      width: 34% !important;
+  }
+  .link_2{
+      left: 70% !important;
+      width: 15% !important;
+      height: 9% !important;
+  }
+
+ 
+}
+
+@media screen and (max-width : 920px){
+/* .image{
+  display: none;
+} */
+
+.topic{
+  left: 20% !important;
+  width: 65% !important;
+}
+.bg_bottom{
+  left: 4.5% !important;
+
+}
+.bg_upper{
+  left:8.5% !important;
+}
+.image_main{
+  bottom: 23% !important;
+  left: 5% !important;
+  width: 52% !important;
+}
+
+.text_1{
+  left:52% !important;
+  width: 42% !important;
+}
+.link_1{
+  left:60% !important;
+  width: 29% !important;
+  top: 32% !important;
+}
+.line{
+  left: 52% !important;
+  width: 42% !important;
+}
+.text_2{
+  left:52% !important;
+  width: 42% !important;
+}
+.link_2{
+  left:60% !important;
+  width: 29% !important;
+  top: 85% !important;
+}
+}
+
+
+
+@media screen and (max-width : 480px){
+
+  .topic{
+      left: 7% !important;
+      width: 90% !important;
+  }
+  .topic_content{
+      font-size: 45px !important;
+  }
+  .bg_bottom{
+    left: 4.5% !important;
+    top: 28% !important;
+  
+  }
+  .bg_upper{
+      left:7% !important;
+  }
+  .image_main{
+     display: none;
+  }
+  
+  .text_1{
+      left:9.5% !important;
+      width: 85% !important;
+  }
+  .link_1{
+      left:25% !important;
+      width: 57% !important;
+      top: 32% !important;
+  }
+  .line{
+      left: 9.5% !important;
+      width: 85% !important;
+  }
+  .text_2{
+      left:9.5% !important;
+      width: 85% !important;
+  }
+  .link_2{
+      left:32% !important;
+      width: 45% !important;
+      top: 85% !important;
+  }
+}
+
+@media screen and (max-width : 376px){
+  .topic{
+      left: 7% !important;
+      width: 90% !important;
+  }
+  .topic_content{
+      font-size: 43px !important;
+  }
+  
+  
+  
+}

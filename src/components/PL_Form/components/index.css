@@ -1,0 +1,212 @@
+.placeholder-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 3px solid transparent;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.placeholder-text {
+    pointer-events: none;
+}
+
+.text {
+    font-size: 1.4rem;
+    padding: 0 0.5rem;
+    background-color: transparent;
+    color: black;
+}
+
+input,
+.placeholder-text {
+    font-size: 1.4rem;
+    padding: 0 1.2rem;
+}
+
+.input-contain {
+    position: relative;
+}
+
+
+
+input:focus {
+    outline: none;
+    border-color: rgba(58, 212, 175);
+}
+
+input:focus+.placeholder-text .text {
+    background-color: white;
+    font-size: 1.1rem;
+
+    transform: translate(0, -160%);
+    --tw-text-opacity: 1;
+    color: rgba(251, 191, 36);
+    font-weight: 600;
+    border-color: rgba(58, 212, 175);
+    /* color: blueviolet; */
+}
+
+input {
+    opacity: 0.99;
+}
+
+.text {
+    transform: translate(90);
+    font-size: 20px;
+    color: grey;
+    transition: transform 0.15s ease-out, font-size 0.15s ease-out, background-color 0.2s ease-out, color 0.15s ease-out;
+}
+
+input:focus+.placeholder-text .text,
+:not(input[value=""])+.placeholder-text .text {
+    background-color: white;
+    font-size: 1.1rem;
+
+    color: rgba(251, 191, 36);
+    font-weight: 600;
+    transform: translate(0, -85%);
+}
+
+input:focus+.placeholder-text .text {
+    border-color: rgba(58, 212, 175);
+
+
+    /* color: rgba(58, 212, 175); */
+    color: rgba(251, 191, 36);
+    font-weight: 600;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .text {
+        font-size: 14px;
+        font-weight: normal;
+
+    }
+
+
+    input:focus+.placeholder-text .text,
+    :not(input[value=""])+.placeholder-text .text {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    input:focus+.placeholder-text .text {
+        font-weight: normal;
+        font-size: 14px;
+    }
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+select,
+.placeholder-text {
+    font-size: 1.4rem;
+    padding: 0 1.2rem;
+}
+
+
+
+select:focus {
+    outline: none;
+    border-color: rgba(58, 212, 175);
+}
+
+select:focus+.placeholder-text .text {
+    border-color: rgba(58, 212, 175);
+    color: rgba(251, 191, 36);
+    font-weight: 600;
+}
+
+input[type=date]:not(input[value=""])::-webkit-datetime-edit-text {
+    display: inline !important;
+}
+
+input[type=date]::-webkit-datetime-edit-text {
+    display: none;
+}
+
+input[type=date]:not(input[value=""])::-webkit-datetime-edit-month-field {
+    display: inline !important;
+}
+
+input[type=date]::-webkit-datetime-edit-month-field {
+    display: none;
+}
+
+
+input[type=date]:not(input[value=""])::-webkit-datetime-edit-day-field {
+    display: inline !important;
+}
+
+input[type=date]::-webkit-datetime-edit-day-field {
+    display: none;
+}
+
+input[type=date]:not(input[value=""])::-webkit-datetime-edit-year-field {
+    display: inline !important;
+}
+
+input[type=date]::-webkit-datetime-edit-year-field {
+    display: none;
+}
+
+#cover-spin {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index: 9999;
+    display: none;
+}
+
+@-webkit-keyframes spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#cover-spin::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-top-color: transparent;
+    border-width: 4px;
+    border-radius: 50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}

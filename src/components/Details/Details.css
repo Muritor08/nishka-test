@@ -1,0 +1,19 @@
+.details-main{
+    background:red;
+    width:80vw;
+    margin:3% auto;
+}
+.details-main>div{
+    background:grey;
+    width:90%;
+    margin:auto;
+}
+.fp-main{
+    position:relative;
+}
+.fp-edit{
+    position:absolute;
+    right:0;
+    padding:0.75%;
+    background:#3ad4af;
+}

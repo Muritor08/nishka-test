@@ -1,0 +1,142 @@
+.testimonial_card {
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgb(0 0 0 / 19%) -1px -1px 0px 4px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .slick-prev,
+.slick-next {
+    height: 100% !important;
+    width: 30px;
+} */
+
+/* .slick-next:hover,
+.slick-prev:hover {
+    background-color: aqua !important;
+    border-radius: 10px;
+} */
+
+.avatar-con {
+    border-radius: 100%;
+    transform: translateY(-50%);
+    align-self: center !important;
+  
+}
+
+.avatar {
+   height: 130px;
+}
+
+.details {
+    display: flex;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transform: translateY(-10%);
+
+}
+
+.top_quotes {
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+
+.bottom_quotes {
+    align-self: flex-end;
+    margin-right: 10px;
+}
+
+.quotes {
+    height: 30px;
+
+}
+
+.name-con {
+    height: 17%;
+    width: 100%;
+    margin-top: 20px;
+    align-self: center;
+    max-height: 17%;
+}
+
+.name {
+    font-size: 1.5rem;
+    word-wrap: normal;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.review-con {
+    width: 74%;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.review {
+    font-size: 20px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.carousel_test_box {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.place {
+    white-space: nowrap;
+    word-wrap: normal;
+    height: 7%;
+    width: 90%;
+}
+
+@media (max-width:636px) {}
+
+.carousel-container {
+    padding: 20px !important;
+    width: 98%;
+    margin: auto;
+    padding-top:0px !important;
+}
+
+.slick-slide.slick-center .testimonial_card {
+    transform: scale(1.009);
+}
+
+.slick-slide .testimonial_card {
+    transform: scale(1);
+}
+
+.head_content_test {
+    font-size: 72px;
+    color: #114034
+}
+
+@media (max-width:576px) {
+    .testimonial_card {
+        width: 80%;
+    }
+    .head_content_test {
+        font-size: 40px;
+    }
+
+}

@@ -1,0 +1,132 @@
+@media screen and (min-width : 925px) {
+
+
+
+    .headcontent_1w{
+        font-size: 25px !important;
+    }
+    .heading1_w{
+        width: 80% !important;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width : 920px){
+    
+    
+    .image{
+        display: none;
+    }
+
+    .div1_w{
+        left: 10% !important;
+        width: 85% !important;
+        /* top: 17% !important; */
+    }
+    .div2_w{
+        left:10% !important;
+        width: 85% !important;
+        /* top: 17% !important; */
+    }
+    .div3_w{
+        left:10% !important;
+        width: 85% !important;
+
+    }
+    .head{
+        left:25% !important;
+    }
+    .headcontent_1w , .textcontent_1w{
+        width: 90% !important;
+    }
+    .headcontent_1w{
+        font-size: 25px !important;
+    }
+    .textcontent_1w{
+         font-size: 20px !important;
+    }
+    .readmore{
+        top:70% !important;
+    }
+    
+    
+    }
+
+
+
+    @media screen  and (max-width : 481px){
+
+
+
+        .image{
+            display: none;
+        }
+    
+        .div1_w{
+            left: 1% !important;
+            width: 100% !important;
+            height:10% !important;
+            /* top: 17% !important; */
+        }
+        .div2_w{
+            top: 27% !important;
+            left:1% !important;
+            width: 100% !important;
+            height:10% !important;
+            /* top: 17% !important; */
+        }
+        .div3_w{
+            top: 40% !important;
+            left:1% !important;
+            width: 100% !important;
+            height:10% !important;
+    
+        }
+        .head{
+            left:20% !important;
+        }
+        
+        .headcontent_1w{
+            width: 99% !important;
+            font-size: 17px !important;
+        }
+        .textcontent_1w{
+            width: 69% !important;
+            font-size: 14px !important;
+            line-height: 17px !important;
+        }
+        .readmore{
+            top:70% !important;
+        }
+        .headtext{
+            font-size: 32px !important;
+        }
+        .text1_w{
+            top:24% !important;
+            width: 92% !important;
+        }
+        .middiv{
+            top : 25% !important;
+            height: 13% !important;
+        }
+
+        .bottom_box{
+            top: 50% !important;
+            height: 13% !important;
+        }
+        .text_lastcontent{
+            font-size: 15px !important;
+            line-height: 17.5px !important;
+        }
+        .text_last{
+            top: 6% !important;
+        }
+        .readmore{
+            top: 70% !important;
+        
+        }
+    }

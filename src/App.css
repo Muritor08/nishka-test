@@ -1,0 +1,211 @@
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-size: large !important;
+}
+
+.jumbotron {
+  margin-bottom: 0rem !important;
+  text-align: center;
+}
+
+.App-link {
+  color: rgb(112, 76, 182);
+}
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.removePadding {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 0rem;
+  height: 80%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  position: relative !important;
+  bottom: 20px;
+  left: 0% !important;
+  background-color: grey;
+  margin-bottom: 0px !important;
+}
+
+.item,
+.active {
+  height: 80%;
+}
+
+.carousel-inner {
+  height: 80%;
+}
+
+/* Declare heights because of positioning of img element */
+/* .carousel-item {
+  height: 40rem; 
+} 
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 40rem;
+}  */
+
+.btn-my {
+  color: #fff;
+  background-color: rgb(255, 0, 0);
+  border-color: #007bff;
+}
+
+.paddingBottom {
+  position: relative;
+  bottom: 40px;
+}
+
+.navNishkaEra {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100% !important;
+  height: 60% !important;
+  margin: 0;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
+
+.rightNavProfile {
+  margin-left: 26%;
+}
+
+.backGroundColor {
+  /* background-color: #3ad4af; */
+  background-color: grey;
+}
+
+/* .women-bg {
+  background-color: greenyellow; 
+  background-color: lightgrey; 
+} 
+*/
+
+
+.womenCaption {
+  font-size: x-large !important;
+  color: black !important;
+  margin: 2em 0 0 0;
+  text-align: center;
+}
+
+.removePadd {
+  position: relative !important;
+  bottom: 68px !important;
+}
+
+/* .navBar {
+  font-size: x-large;
+  font-weight: bold;
+} */
+
+.financialContainer {
+  position: relative !important;
+  bottom: 5px !important;
+}
+
+.container-latest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-latest-item {
+  width: 15vw;
+  height: 5vh;
+  padding: 2em;
+  border: 2px solid rgb(159, 12, 22);
+  align-self: center;
+  background-color: #63b7af;
+  border-radius: 2em;
+}
+
+.aboutUS {
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sectionHeading {
+  position: relative;
+  bottom: 45px;
+}
+
+.sectionParagraph {
+  position: relative;
+  bottom: 25px;
+}
+
+.backgroundColor {
+  background-color: #a9a9a9;
+}
+
+.footerColor {
+  background-color: gray;
+}
+
+.socialMediaColor{
+  background-color: #f3f5f7;
+}
+
+.justifyContent{
+  justify-content: justify;
+}
+
+.modal-backdrop {
+  background-color: #3AD4AF;
+}
+.modalBackdrop {
+  background-color: #9efce6;
+  opacity: '70%'
+}
+.fixed-top{
+  background:white;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px;
+}
+

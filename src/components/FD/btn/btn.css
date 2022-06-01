@@ -1,0 +1,21 @@
+.container {
+    width: 500px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    height: 100px;
+    width: 100px;
+    left: 20px;
+    font-size: 20px;
+    background: orange;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 100%;
+    border: none;
+    box-shadow: 0 5px 10px #ccc;
+  }

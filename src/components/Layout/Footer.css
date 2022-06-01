@@ -1,0 +1,8 @@
+.gradient{
+  background:linear-gradient(180deg, #00FFC4 -25.61%, rgba(75, 79, 78, 0) 269.51%);
+}
+
+::-webkit-input-placeholder {
+  color:white;
+  text-align: center;
+}

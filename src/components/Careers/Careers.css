@@ -1,0 +1,81 @@
+.positions-career {
+    flex-wrap: wrap;
+    display:flex;
+}
+.positions-career div{
+    /* min-height:30rem; */
+    width:50vw;
+    background: white;
+    padding:2% 0;
+    margin:3% auto;
+}
+.positions-career div .positions-title{
+    width:50%;
+    margin:auto;
+    background: rgba(128, 128, 128, 0.075);
+    height:max-content;
+    padding:2% 4%;
+    text-align: left;
+    border-left:2px solid #3ad4af;
+    margin-top:3%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.positions-career div .positions-title p svg{
+    color:#3ad4af
+}
+.positions-career div .position-responsibilities{
+    text-align: left;
+    padding:2%;
+    margin:auto;
+    background: rgba(128, 128, 128, 0.041);
+    width:70%;
+    margin:3% auto;
+}
+.position-responsibilities h5{
+    text-align: center
+}
+.position-responsibilities h5 svg{
+    color:#3ad4af
+}
+.position-responsibilities li{
+    font-size:smaller;
+    /* width:60%; */
+}
+.positions-career>div>p{
+    width:80% !important;
+    margin:auto;
+    font-size:small
+}
+.positions-career button{
+    background:#3ad4af;
+    padding:1% 4%;
+    border-radius:5px;
+    cursor:pointer;
+    border:none;
+    outline:none;
+    margin-top:3%;
+    margin-bottom:5%;
+}
+.positions-career button a{
+    color:white;
+    text-decoration: none;
+}
+@media screen and (max-width:1000px){
+    .positions-career div{
+        width:80vw;
+    }
+}
+@media screen and (max-width:700px){
+    .career-img{
+        width:80vw;
+    }
+}
+@media screen and (max-width:500px){
+    .positions-career div{
+        width:90vw;
+    }
+    .positions-career div .position-responsibilities{
+        width:90%;
+    }
+}

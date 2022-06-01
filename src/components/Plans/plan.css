@@ -1,0 +1,26 @@
+.card {
+    margin-bottom: 10px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.plan-amount {
+    text-align: center;
+}
+
+.free-plan-card {
+    border: 2px solid #b08d57;
+    background-color: #faf1e4;
+}
+
+.monthly-plan-card {
+    border: 2px solid #C0C0C0;
+    background-color: #f1f1f1;
+}
+
+.yearly-plan-card {
+    border: 2px solid #FFD700;
+    background-color: #fffadf;
+}

@@ -1,0 +1,50 @@
+.webinar-header {
+  margin-bottom: 2rem;
+}
+
+.webinar-subheader {
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.webinar-tab {
+  width: 100%;
+}
+
+.webinar-cards {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.webinar-card img {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+.webinar-card h3 {
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+
+  margin-bottom: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.card-buttons {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.webinar-brochure {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}

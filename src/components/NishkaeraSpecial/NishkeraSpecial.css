@@ -1,0 +1,148 @@
+@media screen and (min-width:925px){
+    .headcontent{
+        display: none !important;
+    }
+    .caraa{
+        display: none !important;
+    }
+
+    .special_main{
+        height: 750px;
+    }
+    
+}
+
+@media screen and (max-width : 920px){
+    
+    .special_main{
+        height: 750px;
+    }
+
+    .headcontent{
+        font-size: 45px !important;
+        font-weight: bold;
+        
+       } 
+    
+    .image{
+        display: none;
+    }
+
+    .div1{
+        left: 15% !important;
+        width: 30% !important;
+        top: 17% !important;
+    }
+    .div2{
+        left:60% !important;
+        width: 30% !important;
+        top: 17% !important;
+    }
+    .div3{
+        left:15% !important;
+        width: 30% !important;
+
+    }
+    .div4{
+        left:60% !important;
+        width: 30% !important;
+
+    }
+    .text1{
+        width: 100% !important;
+        top : 55% !important;
+    }
+    
+    }
+    
+   
+    @media screen  and (min-width : 481px){
+
+        .caraa{
+            display: none !important;
+        }
+        
+
+        
+    }
+    @media screen and (max-width : 480px){
+
+        .special_main{
+            height: 650px;
+        }
+ 
+         .headcontent{
+           font-size: 45px !important;
+           font-weight: 500 !important;
+           
+          }  
+
+         .heading{
+             top: 0% !important;
+             left: 2% !important;
+             
+         }
+         .caraa{
+             padding-top: 100px !important;
+         }
+
+        .div1, .div2, .div3, .div4{
+            display: none !important;
+        }
+    
+    }
+    
+    @media screen and (max-width : 376px){
+        .headcontent{
+            font-size: 40px !important;
+            font-weight: 500 !important;
+            
+           }  
+           .heading{
+            top: 0% !important;
+            left: 0% !important;
+           }
+ 
+        .image{
+            height: 80% !important;
+        }
+        .link{
+            top: 45% !important;
+            width: 35% !important;
+            left:35% !important;
+        }
+        .image_bottom_1{
+            bottom: 15% !important;
+        }
+        .image_bottom_2{
+            bottom: 15% !important;
+        }
+        .image_bottom_3{
+            bottom: 15% !important;
+        }
+        #text_kn{
+            top:23% !important;
+        }
+        #link_kn{
+            top:50% !important;
+        }
+    }
+
+
+
+
+
+    .carousel .slide{
+        background-color: gray;
+    }
+    .carousel .slide img {
+      
+        object-fit: cover;}
+        
+    .carousel .thumbs-wrapper{
+        display:none;
+    }
+    .carousel-status{
+        display: none;
+    }
+    

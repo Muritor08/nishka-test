@@ -1,0 +1,48 @@
+.underline {
+  border-bottom: 2px solid transparent;
+}
+.underline:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+.loans-footer {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.loans-footer span {
+  margin: 0 2%;
+}
+.funds-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.funds-footer div {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.funds-footer div p {
+  margin: 0;
+}
+.funds-footer div i {
+  margin: 0 10px;
+}
+.first-right {
+  text-align: end;
+  justify-content: flex-end !important;
+}
+.marginTopLearn{
+  margin-top:5%;
+}
+@media screen and (max-width:1050px){
+  .marginTopLearn{
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width:600px){
+  .marginTopLearn{
+    margin-top: 15%;
+  }
+}

@@ -1,0 +1,59 @@
+.MuiTab-wrapper {
+    color:#3ad4af !important;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.PrivateTabIndicator-colorPrimary-3 {
+    background-color: #3ad4af !important;
+}
+.makeStyles-root-1 {
+    width:85% !important;
+    margin:auto !important;
+}
+.ipo-img{
+    height:4rem;
+    object-fit: contain;
+    width:15rem;
+    /* background:black; */
+}
+.ipo-card{
+    min-height:12rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:2%;
+    align-self: center;
+}
+.ipo-card-title{
+    background:#3ad4af;
+    margin:5% 0% 2%;
+    padding:1% 3%;
+    border-radius:5px;
+    color:white;
+    min-width:80%;
+}
+.ipo-card-link{
+    margin-bottom:0;
+   border-bottom:2px solid transparent;
+   cursor:pointer;
+}
+.ipo-card-link:hover{
+   border-bottom:2px solid black;
+}
+.ipo-series-img{
+    height:15rem;
+}
+.ppt-el{
+    height:20rem;
+    width:80%;
+}
+@media screen and (max-width:520px){
+    .ipo-series-img{
+        width:80vw;
+    }
+}
+@media screen and (max-width:500px){
+    .ipo-img{
+        width:10rem;
+    }
+}
