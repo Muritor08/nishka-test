@@ -86,7 +86,7 @@ const CommentsForm = ({ slug }) => {
 	};
 
 	return (
-		<div className="tw-bg-white tw-shadow-lg tw-rounded-lg tw-p-8 tw-pb-8 tw-pt-2 tw-mb-8">
+		<div className="tw-bg-white tw-shadow-xl tw-rounded-xl tw-p-8 tw-pb-8 tw-pt-2 tw-mb-8">
 			<h3 className="tw-text-xl tw-mb-8 tw-font-semibold  tw-border-solid tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-b-2 tw-pb-4">
 				Leave a Reply
 			</h3>
@@ -95,7 +95,7 @@ const CommentsForm = ({ slug }) => {
 				<textarea
 					value={formData.comment}
 					onChange={onInputChange}
-					className="tw-resize-none tw-p-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-lg tw-h-25 tw-font-montserrat tw-placeholder-gray-700 placeholder:tw-text-left tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 tw-bg-gray-100"
+					className="tw-resize-none tw-p-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-xl tw-h-25  tw-placeholder-gray-700 placeholder:tw-text-left tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 tw-bg-gray-100"
 					name="comment"
 					placeholder="Comment"
 				/>
@@ -105,7 +105,7 @@ const CommentsForm = ({ slug }) => {
 					type="text"
 					value={formData.name}
 					onChange={onInputChange}
-					className="tw-py-2 tw-px-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-lg tw-bg-gray-100 tw-font-montserrat tw-placeholder-gray-700 placeholder:tw-text-left tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 "
+					className="tw-py-2 tw-px-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-xl tw-bg-gray-100  tw-placeholder-gray-700 placeholder:tw-text-left tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 "
 					placeholder="Name"
 					name="name"
 				/>
@@ -113,7 +113,7 @@ const CommentsForm = ({ slug }) => {
 					type="email"
 					value={formData.email}
 					onChange={onInputChange}
-					className="tw-py-2 tw-px-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-lg tw-bg-gray-100 tw-font-montserrat tw-placeholder-gray-700 placeholder:tw-text-left tw-font-Regular tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 "
+					className="tw-py-2 tw-px-4 tw-border-0 tw-outline-none tw-w-full tw-rounded-xl tw-bg-gray-100  tw-placeholder-gray-700 placeholder:tw-text-left tw-text-gray-700 focus:tw-ring-2 focus:tw-ring-gray-200 "
 					placeholder="Email"
 					name="email"
 				/>
@@ -128,7 +128,7 @@ const CommentsForm = ({ slug }) => {
 						name="storeData"
 						value="true"
 					/>
-					<label className="tw-text-gray-500 tw-cursor-pointer" htmlFor="storeData">
+					<label className="tw-text-gray-500 tw-cursor-pointer tw-ml-2" htmlFor="storeData">
 						{" "}
 						Save my name, email in this browser for the next time I comment.
 					</label>

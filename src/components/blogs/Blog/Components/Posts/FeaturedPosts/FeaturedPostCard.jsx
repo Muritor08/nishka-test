@@ -4,10 +4,10 @@ import moment from 'moment';
 import {Link} from 'react-router-dom';
 
 const FeaturedPostCard = ({ post }) => (
-  <div className="tw-relative tw-h-40 tw-mt-8">
-    <div className="tw-absolute tw-rounded-lg tw-bg-center tw-bg-no-repeat tw-bg-cover tw-shadow-md tw-inline-block tw-w-full tw-h-40" style={{ backgroundImage: `url('${post.featuredImage.url}')` }} />
-      <div className="tw-absolute tw-rounded-lg tw-bg-center tw-bg-gradient-to-b tw-opacity-70 tw-from-gray-900 tw-via-gray-800 tw-to-black tw-w-full tw-h-40" />
-        <div className="tw-flex tw-flex-col tw-rounded-lg tw-p-4 tw-items-center tw-justify-center tw-absolute tw-w-full tw-h-full">
+  <div className="tw-relative tw-h-40 tw-mt-8 tw-text-left">
+    <div className="tw-absolute tw-rounded-xl tw-bg-center tw-bg-no-repeat tw-bg-cover tw-shadow-md tw-inline-block tw-w-full tw-h-40" style={{ backgroundImage: `url('${post.featuredImage.url}')` }} />
+      <div className="tw-absolute tw-rounded-xl tw-bg-center tw-bg-gradient-to-b tw-opacity-70 tw-from-gray-900 tw-via-gray-800 tw-to-black tw-w-full tw-h-40" />
+        <div className="tw-flex tw-flex-col tw-rounded-xl tw-p-4 tw-items-center tw-justify-center tw-absolute tw-w-full tw-h-full">
           {/* <p className="text-white mb-4 text-shadow font-semibold text-xs">
             {moment(post.createdAt).format('MMM DD, YYYY')}
           </p> */}
@@ -20,7 +20,7 @@ const FeaturedPostCard = ({ post }) => (
             alt={post.author.name}
             height="30px"
             width="30px"
-            className="align-middle drop-shadow-lg rounded-full"
+            className="align-middle drop-shadow-xl rounded-full"
             src={post.author.photo.url}
           />
           <p className="inline align-middle text-white text-shadow ml-2 font-medium">

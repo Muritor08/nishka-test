@@ -44,9 +44,9 @@ const PostDetail = ({ post }) => {
 
   return (
     <>
-      <div className="tw-bg-white tw-shadow-lg tw-rounded-lg lg:tw-p-8 tw-pb-12 tw-mb-8">
+      <div className="tw-bg-white tw-shadow-xl tw-rounded-xl lg:tw-p-8 tw-pb-12 tw-mb-8 tw-text-left">
         <div className="tw-relative tw-overflow-hidden tw-shadow-md tw-mb-6">
-          <img src={post.featuredImage.url} alt="" className="tw-object-top tw-h-full tw-w-full tw-object-cover  tw-shadow-lg tw-rounded-t-lg lg:tw-rounded-lg" />
+          <img src={post.featuredImage.url} alt="" className="tw-object-top tw-h-full tw-w-full tw-object-cover  tw-shadow-xl tw-rounded-t-lg lg:tw-rounded-xl" />
         </div>
         <div className="tw-px-4 lg:tw-px-0">
           <div className="tw-flex tw-items-center tw-mb-8 tw-w-full">

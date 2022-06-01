@@ -29,7 +29,7 @@ class PostDetails extends Component {
 				) : (
 					<>
 					<Header />
-					<div className="tw-container tw-mx-auto tw-px-10 tw-pb-8 tw-pt-8 tw-bg-gray-100">
+					<div className="tw-container tw-mx-auto tw-px-10 tw-pb-8 tw-pt-8 tw-bg-gray-100 tw-text-left">
 						<div className="tw-grid tw-grid-cols-1 lg:tw-grid-cols-12 tw-gap-12">
 							<div className="tw-col-span-1 lg:tw-col-span-8">
 								<PostDetail post={post} />

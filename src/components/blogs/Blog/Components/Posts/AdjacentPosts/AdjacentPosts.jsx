@@ -19,12 +19,12 @@ const AdjacentPosts = ({ createdAt, slug }) => {
       {dataLoaded && (
         <>
           {adjacentPost.previous && (
-            <div className={`${adjacentPost.next ? 'tw-col-span-1 lg:tw-col-span-4' : 'tw-col-span-1 lg:tw-col-span-8'} adjacent-post tw-rounded-lg tw-relative tw-h-72`}>
+            <div className={`${adjacentPost.next ? 'tw-col-span-1 lg:tw-col-span-4' : 'tw-col-span-1 lg:tw-col-span-8'} adjacent-post tw-rounded-xl tw-relative tw-h-72`}>
               <AdjacentPostCard post={adjacentPost.previous} position="LEFT" />
             </div>
           )}
           {adjacentPost.next && (
-            <div className={`${adjacentPost.previous ? 'tw-col-span-1 lg:tw-col-span-4' : 'tw-col-span-1 lg:tw-col-span-8'} adjacent-post tw-rounded-lg tw-relative tw-h-72`}>
+            <div className={`${adjacentPost.previous ? 'tw-col-span-1 lg:tw-col-span-4' : 'tw-col-span-1 lg:tw-col-span-8'} adjacent-post tw-rounded-xl tw-relative tw-h-72`}>
               <AdjacentPostCard post={adjacentPost.next} position="RIGHT" />
             </div>
           )}

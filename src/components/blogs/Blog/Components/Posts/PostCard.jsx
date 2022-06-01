@@ -7,12 +7,12 @@ import LikeButton from '../LikeButton'
 import { grpahCMSImageLoader } from "../../util";
 
 const PostCard = ({ post }) => (
-	<div className="tw-bg-nishblue-400 tw-shadow-lg tw-rounded-lg tw-p-0 lg:tw-p-8 tw-pb-12 tw-mb-8">
+	<div className="tw-bg-nishblue-400 tw-shadow-xl tw-rounded-xl tw-p-0 lg:tw-p-8 tw-pb-12 tw-mb-8 tw-text-left">
 		<div className="tw-relative tw-overflow-hidden tw-shadow-md tw-pb-80 tw-mb-6">
 			<img
 				src={post.featuredImage.url}
 				alt={post.title}
-				className="tw-object-top tw-absolute tw-h-80 tw-w-full tw-object-cover  tw-shadow-lg tw-rounded-t-lg lg:tw-rounded-lg "
+				className="tw-object-top tw-absolute tw-h-80 tw-w-full tw-object-cover  tw-shadow-xl tw-rounded-t-lg lg:tw-rounded-xl "
 			/>
 		</div>
 

@@ -63,7 +63,7 @@ import ScrollToTop from "../components/ScrollToTop";
 export default function OurStory() {
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -166,6 +166,6 @@ export default function OurStory() {
             <div className="h3">WomenSpecial: </div>
             <div className="p">Nishkaera also aspire to bridge the age old gap between women and investment by providing them specialised financial services with the aim to enable them to achieve their financial freedom through mix of learning, seasoned advice and providing a platform to buy women-oriented financial products.</div> */}
     </div>
-    </div>
+
   );
 }

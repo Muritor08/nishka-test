@@ -124,7 +124,7 @@ export default function Invest() {
 
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -179,6 +179,6 @@ export default function Invest() {
       <Footer />
       <SocialFollow />
     </div>
-    </div>
+
   );
 }

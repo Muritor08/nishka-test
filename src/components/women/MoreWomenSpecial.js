@@ -464,7 +464,7 @@ export default function MoreWomenSpecial() {
   }
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
 
       <ScrollToTop />
       <Header />
@@ -519,7 +519,6 @@ export default function MoreWomenSpecial() {
             <div className="p">We are achieving this by bringing our expertise in technology, financial services and customer focus to provide our customers with best-in-class and hassle-free financial platform to learn about various financial products and  buy them as per their choice.</div>
             <div className="h3">WomenSpecial: </div>
             <div className="p">Nishkaera also aspire to bridge the age old gap between women and investment by providing them specialised financial services with the aim to enable them to achieve their financial freedom through mix of learning, seasoned advice and providing a platform to buy women-oriented financial products.</div> */}
-    </div>
     </div>
   );
 }

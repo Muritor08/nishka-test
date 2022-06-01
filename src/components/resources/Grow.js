@@ -128,7 +128,7 @@ export default function Grow() {
 
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -182,7 +182,6 @@ export default function Grow() {
       </Jumbotron>
       <Footer />
       <SocialFollow />
-    </div>
     </div>
   );
 }

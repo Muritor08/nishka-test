@@ -141,7 +141,7 @@ export default function KnowYourFP() {
   };
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <MyVerticallyCenteredModal
@@ -191,6 +191,6 @@ export default function KnowYourFP() {
       <Footer />
       {/* <SocialFollow /> */}
     </div>
-    </div>
+
   );
 }

@@ -298,7 +298,7 @@ export default function DetailedFP() {
   };
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <MyVerticallyCenteredModal
@@ -439,6 +439,6 @@ export default function DetailedFP() {
       </Jumbotron>
       <Footer />
     </div>
-    </div>
+
   );
 }

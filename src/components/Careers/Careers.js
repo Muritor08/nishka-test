@@ -12,7 +12,7 @@ import EmojiPeopleIcon from "@material-ui/icons/EmojiPeople";
 export default function Careers() {
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -211,6 +211,6 @@ export default function Careers() {
       <Footer />
 
     </div>
-    </div>
+
   );
 }

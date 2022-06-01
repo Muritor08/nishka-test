@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 const AdjacentPostCard = ({ post, position }) => (
 	<>
 		<div
-			className="tw-absolute tw-rounded-lg tw-bg-center tw-bg-no-repeat tw-bg-cover tw-shadow-md tw-inline-block tw-w-full tw-h-72"
+			className="tw-absolute tw-rounded-xl tw-bg-center tw-bg-no-repeat tw-bg-cover tw-shadow-md tw-inline-block tw-w-full tw-h-72"
 			style={{ backgroundImage: `url('${post.featuredImage.url}')` }}
 		/>
-		<div className="tw-absolute tw-rounded-lg tw-bg-center tw-bg-gradient-to-b tw-opacity-50 tw-from-gray-400 tw-via-gray-700 tw-to-black tw-w-full tw-h-72" />
-		<div className="tw-flex tw-flex-col tw-rounded-lg tw-p-4 tw-items-center tw-justify-center tw-absolute tw-w-full tw-h-full">
+		<div className="tw-absolute tw-rounded-xl tw-bg-center tw-bg-gradient-to-b tw-opacity-50 tw-from-gray-400 tw-via-gray-700 tw-to-black tw-w-full tw-h-72" />
+		<div className="tw-flex tw-flex-col tw-rounded-xl tw-p-4 tw-items-center tw-justify-center tw-absolute tw-w-full tw-h-full">
 			<p className="tw-text-white text-shadow tw-font-semibold tw-text-xs">
 				{moment(post.createdAt).format("MMM DD, YYYY")}
 			</p>

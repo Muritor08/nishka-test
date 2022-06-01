@@ -63,7 +63,7 @@ function WomenSpecialHome() {
     return (
 
         <div className="App backgroundColor" >
-                  <div className="tw-text-center" style={{textAlign:"center"}}>
+                  
 
             <ScrollToTop />
             <Header />
@@ -111,7 +111,6 @@ function WomenSpecialHome() {
             </div>
             <Footer />
 
-        </div>
         </div>
     )
 }

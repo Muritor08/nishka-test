@@ -307,7 +307,7 @@ export default function IPO() {
   }
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -412,6 +412,6 @@ export default function IPO() {
       </Jumbotron>
       <Footer />
     </div>
-    </div>
+
   );
 }

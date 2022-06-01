@@ -16,7 +16,7 @@ const Comments = ({ slug }) => {
 	return (
 		<>
 			{comments.length > 0 && (
-				<div className="tw-bg-white tw-shadow-lg tw-rounded-lg tw-p-8 tw-pb-12 tw-mb-8">
+				<div className="tw-bg-white tw-shadow-xl tw-rounded-xl tw-p-8 tw-pb-12 tw-mb-8">
 					<h3 className="tw-text-xl tw-mb-8 tw-font-semibold  tw-border-solid tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-b-2 tw-pb-4">
 						{comments.length} Comments
 					</h3>
@@ -29,8 +29,7 @@ const Comments = ({ slug }) => {
 							</p>
 							<p className="tw-whitespace-pre-line tw-text-gray-600 tw-w-full">
 								{/* {parse(comment.comment)} */}
-								{moment(comment.createdAt).format("MMM DD, YYYY")}
-							</p>
+								{moment(comment.createdAt).startOf('minute').fromNow()}							</p>
 						</div>
 					))}
 				</div>

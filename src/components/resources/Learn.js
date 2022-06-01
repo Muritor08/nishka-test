@@ -123,7 +123,7 @@ export default function Learn() {
 
   return (
     <div className="App">
-      <div className="tw-text-center" style={{textAlign:"center"}}>
+      
       <ScrollToTop />
       <Header />
       <Jumbotron className="container-fluid">
@@ -191,6 +191,6 @@ export default function Learn() {
       </Jumbotron>
       <Footer />
     </div>
-    </div>
+
   );
 }
