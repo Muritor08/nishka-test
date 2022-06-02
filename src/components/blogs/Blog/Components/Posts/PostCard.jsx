@@ -1,10 +1,9 @@
 import React from "react";
-
 import moment from "moment";
 import { Link } from "react-router-dom";
-import LikeButton from '../LikeButton'
-
 import { grpahCMSImageLoader } from "../../util";
+import LikeButton from "../LikeButton";
+
 
 const PostCard = ({ post }) => (
 	<div className="tw-bg-nishblue-400 tw-shadow-xl tw-rounded-xl tw-p-0 lg:tw-p-8 tw-pb-12 tw-mb-8 tw-text-left">

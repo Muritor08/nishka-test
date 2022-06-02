@@ -4,7 +4,7 @@ import Footer from "../../Layout/Footer";
 import ScrollToTop from "../../ScrollToTop";
 import './styles/globals.scss'
 import { getPosts } from "./services";
-import { Categories, FeaturedPosts, PostCard, RecentPostWidget } from "./Components";
+import { Categories, CategoryNavBar, FeaturedPosts, PostCard, RecentPostWidget } from "./Components";
 
 
 export default function Blog() {
@@ -24,6 +24,7 @@ export default function Blog() {
 				<Header />
 						<div className="tw-container tw-mx-auto tw-px-10 tw-mb-8">
 						{/* <SearchBar /> */}
+							<CategoryNavBar />
 							<FeaturedPosts />
 							<div className="tw-grid tw-grid-cols-1 lg:tw-grid-cols-12 tw-gap-12">
 								<div className="lg:tw-col-span-8 tw-col-span-1">

@@ -88,9 +88,6 @@ import BusiOwner_PL from "./components/PL_Form/components/BusiOwnerPL/BusiOwnerP
 
 import SDP_bajaj from "./components/FD/SDP_bajaj";
 import Blog from "./components/blogs/Blog/Blogs";
-import Blog1 from "./components/resources/Blog1";
-import Blog2 from "./components/resources/Blog2";
-import Blog3 from "./components/resources/Blog3";
 import youtube from "./components/blogs/youtube";
 import twitter from "./components/blogs/twitter";
 import LatestPost from "./components/Latestpost";
