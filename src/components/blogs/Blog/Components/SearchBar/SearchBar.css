@@ -14,7 +14,7 @@
     transition: all .5s ease-in-out;
     background-color: #1b6453;
     padding-right: 40px;
-    /* color:#000; */
+    /* color:#fff; */
   }
 .input-search::placeholder{
     font-size: 18px;

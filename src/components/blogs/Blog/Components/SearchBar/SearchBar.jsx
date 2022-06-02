@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react'
 import { searchPosts } from '../../services';
 import './SearchBar.css'
@@ -38,7 +39,11 @@ function SearchBar() {
         {/* <div className="tw-relative tw-w-fit tw-h-fit"> */}
         <button class="btn-search">
           {/* <button class="tw-w-50px tw-h-50px tw-border-none tw-text-[20px] tw-font-bold tw-outline-0 tw-cursor-pointer tw-rounded-full tw-absolute tw-right-0 tw-text-[#130f40] tw-bg-transparent tw-pointer-events-painted focus:tw-w-200px focus:tw-bg-transparent focus:tw-rounded-none focus:tw-transition-all focus:tw-duration-500 focus:tw-ease-[cubic-bezier(0, 0.110, 0.35, 2)] focus:tw-border-b-1 focus:tw-border-solid focus:tw-border-t-0 focus:tw-border-r-0 focus:tw-border-l-0 focus:tw-border-b-[#ffffff80]"> */}
-            <i class="fas fa-search" />
+          {/* <span style="color:white"> */}
+            {/* <i class="fas fa-search" /> */}
+            <FontAwesomeIcon icon="fa-regular fa-magnifying-glass" style={{ color: 'red' }} />
+            {/* <FontAwesomeIcon icon={['fas','fa-search']} style={{ color: 'red' }} /> */}
+            {/* </span> */}
           </button>
           <input 
             type="text" 
