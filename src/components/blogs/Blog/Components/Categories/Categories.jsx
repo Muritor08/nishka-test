@@ -17,7 +17,7 @@ const Categories = () => {
 			</h3>
 			{categories.map((category, index) => (
 				<div key={index} >
-					<a href={`/category/${category.slug}`}>
+					<a href={`/category/${category.slug}`} style={{textDecoration: 'none'}}>
 						<span
 							className={`tw-cursor-pointer tw-block ${
 								index === categories.length - 1 ? "tw-border-b-0" : "tw-border-solid tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-b"

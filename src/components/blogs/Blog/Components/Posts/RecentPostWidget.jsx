@@ -61,7 +61,7 @@ const RecentPostWidget = ({ categories, slug }) => {
 					<div className="con">
 						<div className="scrolling tw-pt-4 tw-mt-4">
 							{relatedPosts.map((post, index) => (
-								<a href={`/post/${post.slug}`} className=" tw-text-md" key={index}>
+								<a href={`/post/${post.slug}`} className=" tw-text-md" key={index} style={{textDecoration: 'none'}}>
 									<div
 										key={index}
 										className="tw-flex tw-items-center  tw-w-full tw-mb-4  tw-border-solid tw-border-t-0 tw-border-l-0 tw-border-r-0 tw-border-b tw-border-white"

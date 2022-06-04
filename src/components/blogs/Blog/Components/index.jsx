@@ -13,5 +13,5 @@ export { default as CategoryPost } from './Categories/category/[slug]';
 export { default as Author } from './Author';
 export { default as CommentsForm } from './Comments/CommentsForm';
 export { default as Comments } from './Comments/Comments';
-export { default as SearchBar } from './SearchBar/SearchBar'
+export { default as SearchBar } from './SearchBar'
 export { default as LikeButton } from './LikeButton'

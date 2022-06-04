@@ -16,7 +16,7 @@ const PostCard = ({ post }) => (
 		</div>
 
 		<h1 className="tw-transition tw-duration-700 tw-text-center tw-mb-8 tw-cursor-pointer tw-text-white hover:tw-text-nishblue-800  tw-text-3xl tw-font-semibold">
-			<Link to={`/post/${post.slug}`}>{post.title}</Link>
+			<Link to={`/post/${post.slug}`} style={{textDecoration: 'none'}}>{post.title}</Link>
 		</h1>
 		{/* <div className="block lg:flex text-center items-center justify-center mb-8 w-full"> */}
 			{/* <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
