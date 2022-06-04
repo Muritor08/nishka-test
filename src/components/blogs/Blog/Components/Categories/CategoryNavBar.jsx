@@ -13,7 +13,7 @@ export default function CategoryNavBar() {
     });
   }, []);
   return (
-    <div className="tw-mt-8">
+    <div className="tw-mt-8 tw-items-center">
       {/* <div className="tw-flex tw-flex-row lg:tw-col-span-8 tw-col-span-1"> */}
       <div className="tw-grid tw-grid-flow-col lg:tw-col-span-8 tw-col-span-1">
         <a href="/Blogs" style={{textDecoration: 'none'}}><span className="hover:tw-text-nishblue-800 tw-font-medium">All Posts</span></a>
@@ -26,7 +26,7 @@ export default function CategoryNavBar() {
             </a>
           </div>
         ))}
-      {/* <SearchBar /> */}
+      <SearchBar />
       </div>
     </div>
   );
