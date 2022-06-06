@@ -1,52 +1,65 @@
-.search-box{
-    width: fit-content;
-    height: fit-content;
-    position: relative;
-  }
-.input-search{
-    height: 50px;
-    width: 50px;
-    border-style: none;
-    padding: 10px;
-    font-size: 18px;
-    outline: none;
-    border-radius: 25px;
-    transition: all .5s ease-in-out;
-    background-color: #1b6453;
-    padding-right: 40px;
-    /* color:#fff; */
-  }
-.input-search::placeholder{
-    font-size: 18px;
-    font-weight: 100;
-  }
-.btn-search{
-    width: 50px;
-    height: 50px;
-    border-style: none;
-    font-size: 20px;
-    font-weight: bold;
-    outline: none;
-    cursor: pointer;
-    border-radius: 50%;
-    position: absolute;
-    right: 0px;
-    background-color:transparent;
-    pointer-events: painted;  
-  }
-.btn-search:focus ~ .input-search{
-    width: 200px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid #00000080;
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
-.input-search:focus{
-    color:#130f40;
-    width: 200px;
-    border-radius: 0px;
-    background-color: transparent;
-    border-bottom:1px solid #00000080;
-    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
-  }
-  
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  background-color: transparent;
+}
+
+.input-search {
+  height: 30px;
+  width: 30px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  padding-right: 40px;
+}
+
+.input-search::placeholder {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.btn-search {
+  width: 30px;
+  height: 30px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+  width: 170px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #00000080;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.input-search:focus {
+  color: #272727;
+  width: 170px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 1px solid #00000080;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.icon {
+  width: 120px;
+  height: 25px;
+  color: #1b6453 !important;
+}
+
+input:not(input[value=""]) {
+  width: 170px !important;
+}
