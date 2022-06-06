@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Categories, PostCard, Loader } from "../..";
 import { getCategoryPost } from "../../../services";
-import Footer from "../../../../../Layout/Footer";
-import Header from "../../../../../Layout/Header";
+import Footer from "../../../../Layout/Footer";
+import Header from "../../../../Layout/Header";
 
 class CategoryPost extends Component {
     state = { posts:{} , isLoading: true};

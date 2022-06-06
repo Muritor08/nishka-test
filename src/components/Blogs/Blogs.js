@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import Header from "../../Layout/Header";
-import Footer from "../../Layout/Footer";
-import ScrollToTop from "../../ScrollToTop";
+import Header from "../Layout/Header";
+import Footer from "../Layout/Footer";
+import ScrollToTop from "../ScrollToTop";
 import './styles/globals.scss'
 import { getPosts } from "./services";
 import { Categories, CategoryNavBar, FeaturedPosts, PostCard, RecentPostWidget } from "./Components";

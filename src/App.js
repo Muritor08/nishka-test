@@ -21,7 +21,7 @@ import FD_tabs from "./components/FD/FD_tabs";
 import Careers from "./components/Careers/Careers";
 import Disclaimer from "./components/Disclaimer";
 import PrivacyPolicy from "./components/PrivacyPolicy";
-import SocialPost from "./components/blogs/SocialPost";
+import SocialPost from "./components/social/SocialPost";
 import Faqs from "./components/Faqs";
 import ContactUS from "./components/ContactUs";
 import Invest from "./components/resources/Invest";
@@ -87,12 +87,12 @@ import BusiOwner_PL from "./components/PL_Form/components/BusiOwnerPL/BusiOwnerP
 // import UploadFile from "./components/PL_Form/components/FileUpload/FileUpload"
 
 import SDP_bajaj from "./components/FD/SDP_bajaj";
-import Blog from "./components/blogs/Blog/Blogs";
-import youtube from "./components/blogs/youtube";
-import twitter from "./components/blogs/twitter";
+import Blog from "./components/Blogs/Blogs";
+import youtube from "./components/social/youtube";
+import twitter from "./components/social/twitter";
 import LatestPost from "./components/Latestpost";
-import facebook from "./components/blogs/facebook";
-import instagram from "./components/blogs/instagram";
+import facebook from "./components/social/facebook";
+import instagram from "./components/social/instagram";
 
 import TermsOfUse from "./components/TermsOfUse";
 import Shriram_temp from "./components/FD/FD_table/Shriram_temp";
@@ -102,7 +102,7 @@ import Main_BL from "./components/BL/Main";
 import HomeLayoutHOC from "./components/PL_Form/HOC/Home.Hoc"
 
 
-import { CategoryPost, PostDetails } from "./components/blogs/Blog/Components";
+import { CategoryPost, PostDetails } from "./components/Blogs/Components";
 
 
 

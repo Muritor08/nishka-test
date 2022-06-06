@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Header from '../../../../../Layout/Header'
-import Footer from '../../../../../Layout/Footer'
+import Header from '../../../../Layout/Header'
+import Footer from '../../../../Layout/Footer'
 import { PostDetail, Categories, RecentPostWidget, Author, Comments, CommentsForm, Loader } from "../..";
 import { getPostDetails } from "../../../services";
 import { AdjacentPosts } from "../..";
