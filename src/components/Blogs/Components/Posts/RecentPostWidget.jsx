@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import moment from "moment";
 import { getSimilarPosts, getRecentPosts } from "../../services";
 import "../../styles/globals.scss";
 import { useRef } from "react";
