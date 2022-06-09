@@ -24,7 +24,7 @@ export default function Blog() {
 				<Header />
 						<div className="tw-container tw-mx-auto tw-px-10 tw-mb-8">
 						{/* <SearchBar /> */}
-							<CategoryNavBar />
+							<CategoryNavBar set={setPosts} />
 							<FeaturedPosts />
 							<div className="tw-grid tw-grid-cols-1 lg:tw-grid-cols-12 tw-gap-12">
 								<div className="lg:tw-col-span-8 tw-col-span-1">

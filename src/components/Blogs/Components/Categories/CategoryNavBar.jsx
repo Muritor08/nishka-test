@@ -3,7 +3,7 @@ import { SearchBar } from "..";
 import { getCategories } from "../../services";
 import "../../styles/globals.scss";
 
-export default function CategoryNavBar() {
+export default function CategoryNavBar(props) {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
@@ -11,6 +11,7 @@ export default function CategoryNavBar() {
       setCategories(newCategories)
     );
   }, []);
+  
   return (
     <div className="tw-mt-8  tw-hidden lg:tw-block">
       <div className="tw-grid tw-grid-flow-col lg:tw-col-span-8 tw-col-span-1 tw-items-center">
@@ -28,7 +29,7 @@ export default function CategoryNavBar() {
             </a>
           </div>
         ))}
-      <SearchBar />
+      <SearchBar set={props.set} />
       </div>
     </div>
   );

@@ -10,25 +10,30 @@ const getFilteredItems = (query, items) => {
 	return items.filter((post) => post.name.includes(query));
 };
 
-function SearchBar() {
-	const [searchText, setValue] = useState("");
-
-	// const {posts} = searchPosts;
-	// const {items} = posts;
-  	// const filteredItems = getFilteredItems(query, items);
+function SearchBar(props) {
+	const [value, setValue] = useState("");
+	const { set } = props;
 
 	return (
 		<div>
 			<div class="search-box">
-				<button class="btn-search">
+				<button 
+					class="btn-search"
+					onClick={async () => {
+						let data = await searchPosts(value);
+						set(data);
+					}}
+				>
 					<FaSearch className="icon" />
 				</button>
 				<input
 					type="text"
 					class="input-search"
-					value={searchText}
-					onChange={(e) => {
+					value={value}
+					onChange={async (e) => {
 						setValue(e.target.value);
+						// let data = await searchPosts(e.target.value);
+						// set(data);
 					}}
 					placeholder="Type to Search"
 				/>

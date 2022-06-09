@@ -226,7 +226,7 @@ export const submitComment = async (obj) => {
 			authorization: `Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImdjbXMtbWFpbi1wcm9kdWN0aW9uIn0.eyJ2ZXJzaW9uIjozLCJpYXQiOjE2NDg3MzE2MTAsImF1ZCI6WyJodHRwczovL2FwaS1hcC1zb3V0aC0xLmdyYXBoY21zLmNvbS92Mi9jbDFmMDg5cjMybnc4MDF6NjN1dDY1ZnY2L21hc3RlciIsImh0dHBzOi8vbWFuYWdlbWVudC1uZXh0LmdyYXBoY21zLmNvbSJdLCJpc3MiOiJodHRwczovL21hbmFnZW1lbnQuZ3JhcGhjbXMuY29tLyIsInN1YiI6IjFmZGU2N2UwLTgzNDUtNDMyNC1hZTg2LTg5MmI2ZmExOGIzNyIsImp0aSI6ImNsMWFoOWJqbGt6bGYwMXoxZ2VmdWc3OXIifQ.BNN2PUk3KvUW1Q9zDKIIwN6MiagIUqfJSTkU8fftkc_nBGndAk8R97nZx6GkQRMTpzZkEwLDFACFFRuLER4C-e7GMqACLi_WVBieOVR7OnMuXtzaLrgHjlNmnnsg7T_Thp8_06tK5zxhuwCmh_N1sEP-EMu7tRr0EV3_-zNeQTspzYKnpqf3Q6HZZfuerOeZ5iNG6bDfyaYqq_I2bNDy4Quc7g1Wwp7bnGTVVduzntQ9SbGUev7UUNOYg0ZdOJqHD94Ze6pA7K7dnllhyqugxuvBnhnY3Nabgj9_WkVj9TfAjDQ-9CIDGzEqmWwqDgvV0M4p1J9CVpMlbtq7U8FslDAjXq3qg0jjz2Sy7xzxpTytyd5E3fPGsmix8Y7coW1QGx21S6OWL1XF-iX7mWMDHrD07w74l9a4jf3j1a0aqLW10jK9o4FaOWdeBYeakpclXk3tOAtLoChKBT-38zR4xkgfGuWyzqSj1zi5bJlgnKzQxaZLHekwHqiz1VTTwA1KKDOqoDPAs82rdnlEG33D9LQpyvrCR-8q3sH1AuvpMiloVYqfJmZELAHRLRtsdbenNMo-aZkNNRnCYXt4ZEgfDZ5Jsc46sad2-HkMDeUyy4ZirhtkfusSjbwZzh_p5b_GX7kSe3PiN_Nhzc3Hy5PQtSgwSGc68_xgHibbfqvOdt4`,
 		},
 	});
-	
+
 	const query = gql`
 		mutation CreateComment(
 			$name: String!
@@ -260,10 +260,7 @@ export const submitComment = async (obj) => {
 export const getComments = async (slug) => {
 	const query = gql`
 		query GetComments($slug: String!) {
-			comments(
-				orderBy: createdAt_DESC
-				where: { post: { slug: $slug } }) 
-				{
+			comments(orderBy: createdAt_DESC, where: { post: { slug: $slug } }) {
 				name
 				createdAt
 				comment
@@ -311,17 +308,18 @@ export const getRecentPosts = async () => {
 //   `
 // };
 
-export const searchPosts = async () => {
+export const searchPosts = async (text) => {
+	const title = text;
 	const query = gql`
-		query MyQuery {
-			postsConnection(orderBy: createdAt_DESC) {
+		query MyQuery($title: String!) {
+			postsConnection(
+				where: { title_contains: $title }
+				orderBy: createdAt_DESC
+			) {
 				edges {
 					cursor
 					node {
 						author {
-							bio
-							name
-							id
 							photo {
 								url
 							}
@@ -343,7 +341,7 @@ export const searchPosts = async () => {
 		}
 	`;
 
-	const result = await request(graphqlAPI, query);
-
+	const result = await request(graphqlAPI, query, { title });
+	console.log(result.postsConnection.edges);
 	return result.postsConnection.edges;
 };
